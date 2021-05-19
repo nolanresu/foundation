@@ -1,199 +1,132 @@
 <!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
-    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PSA-IMS | Welcome</title>
+  <!-- Compressed CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+
+  <!-- Compressed JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+  <style type="text/css">
+
+    .holy-grail-grid {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 1fr 6fr 0fr;
+      grid-template-columns: 1fr 6fr 0fr;
+      -ms-grid-rows: 1fr 8fr 1fr;
+      grid-template-rows: 1fr 8fr 1fr;
+      grid-gap: 20px;
+      height: 100vh;
+    }
+
+    @media screen and (max-width: 60em) {
+      .holy-grail-grid {
+        -ms-grid-rows: 2fr 1fr 5fr 1fr;
+        grid-template-rows: 2fr 1fr 5fr 1fr;
+      }
+    }
+
+    .holy-grail-header,
+    .holy-grail-left,
+    .holy-grail-middle,
+    .holy-grail-right,
+    .holy-grail-footer {
+      padding: 1rem;
+      border: 1px solid #ededed;
+      background-color: #ededed;
+    }
+
+    .holy-grail-header {
+      -ms-grid-column: 1;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      -ms-grid-row: 1;
+      grid-row-start: 1;
+    }
+
+    @media screen and (max-width: 60em) {
+      .holy-grail-left {
+        -ms-grid-row: 2;
+        grid-row-start: 2;
+        -ms-grid-column: 1;
+        grid-column-start: 1;
+        grid-column-end: 4;
+      }
+    }
+
+    @media screen and (max-width: 60em) {
+      .holy-grail-middle {
+        -ms-grid-row: 3;
+        grid-row-start: 3;
+        -ms-grid-column: 1;
+        grid-column-start: 1;
+        grid-column-end: 4;
+      }
+    }
+
+    @media screen and (max-width: 60em) {
+      .right-nav {
+        -ms-grid-row: 4;
+        grid-row-start: 4;
+        -ms-grid-column: 1;
+        grid-column-start: 1;
+        grid-column-end: 4;
+      }
+    }
+
+    .holy-grail-footer {
+      -ms-grid-column: 1;
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
 
 
-    <!-- Start Top Bar -->
-    <div class="top-bar">
-      <div class="row">
-        <div class="top-bar-left">
-          <ul class="dropdown menu" data-dropdown-menu>
-            <li class="menu-text">Yeti Store</li>
-            <li class="has-submenu">
-              <a href="#">One</a>
-              <ul class="submenu menu vertical" data-submenu>
-                <li><a href="#">One</a></li>
-                <li><a href="#">Two</a></li>
-                <li><a href="#">Three</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">Three</a></li>
-          </ul>
-        </div>
-        <div class="top-bar-right">
-          <ul class="menu">
-            <li><input type="search" placeholder="Search"></li>
-            <li><button type="button" class="button">Search</button></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <!-- End Top Bar -->
-    <br>
-    <!-- You can now combine a row and column if you just need a 12 column row -->
-    <div class="row columns">
-      <nav aria-label="You are here:" role="navigation">
-        <ul class="breadcrumbs">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li class="disabled">Gene Splicing</li>
-          <li>
-            <span class="show-for-sr">Current: </span> Cloning
-          </li>
-        </ul>
-      </nav>
-    </div>
+  </style>
+</head>
+<body>
 
-    <div class="row">
-      <div class="medium-6 columns">
-        <img class="thumbnail" src="https://placehold.it/650x350">
-        <div class="row small-up-4">
-          <div class="column">
-            <img class="thumbnail" src="https://placehold.it/250x200">
-          </div>
-          <div class="column">
-            <img class="thumbnail" src="https://placehold.it/250x200">
-          </div>
-          <div class="column">
-            <img class="thumbnail" src="https://placehold.it/250x200">
-          </div>
-          <div class="column">
-            <img class="thumbnail" src="https://placehold.it/250x200">
-          </div>
-        </div>
-      </div>
-      <div class="medium-6 large-5 columns">
-        <h3>My Awesome Product</h3>
-        <p>Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in.</p>
-
-        <label>Size
-        <select>
-          <option value="husker">Small</option>
-          <option value="starbuck">Medium</option>
-          <option value="hotdog">Large</option>
-          <option value="apollo">Yeti</option>
-        </select>
-        </label>
-
-        <div class="row">
-          <div class="small-3 columns">
-            <label for="middle-label" class="middle">Quantity</label>
-          </div>
-          <div class="small-9 columns">
-            <input type="text" id="middle-label" placeholder="One fish two fish">
-          </div>
-        </div>
-
-        <a href="#" class="button large expanded">Buy Now</a>
-
-        <div class="small secondary expanded button-group">
-            <a class="button">Facebook</a>
-            <a class="button">Twitter</a>
-            <a class="button">Yo</a>
-          </div>
-        </div>
+  <div class="holy-grail-grid">
+    <div class="holy-grail-header">
+      <h3>Header</h3>
     </div>
 
-    <div class="column row">
-      <hr>
-      <ul class="tabs" data-tabs id="example-tabs">
-        <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Reviews</a></li>
-        <li class="tabs-title"><a href="#panel2">Similar Products</a></li>
-      </ul>
-      <div class="tabs-content" data-tabs-content="example-tabs">
-        <div class="tabs-panel is-active" id="panel1">
-          <h4>Reviews</h4>
-          <div class="media-object stack-for-small">
-            <div class="media-object-section">
-              <img class="thumbnail" src="https://placehold.it/200x200">
-            </div>
-            <div class="media-object-section">
-              <h5>Mike Stevenson</h5>
-              <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
-            </div>
-          </div>
-          <div class="media-object stack-for-small">
-            <div class="media-object-section">
-              <img class="thumbnail" src="https://placehold.it/200x200">
-            </div>
-            <div class="media-object-section">
-              <h5>Mike Stevenson</h5>
-              <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you</p>
-            </div>
-          </div>
-          <div class="media-object stack-for-small">
-            <div class="media-object-section">
-              <img class="thumbnail" src="https://placehold.it/200x200">
-            </div>
-            <div class="media-object-section">
-              <h5>Mike Stevenson</h5>
-              <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you</p>
-            </div>
-          </div>
-          <label>
-            My Review
-            <textarea placeholder="None"></textarea>
-          </label>
-          <button class="button">Submit Review</button>
-        </div>
-        <div class="tabs-panel" id="panel2">
-          <div class="row medium-up-3 large-up-5">
-            <div class="column">
-              <img class="thumbnail" src="https://placehold.it/350x200">
-              <h5>Other Product <small>$22</small></h5>
-              <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
-              <a href="#" class="button hollow tiny expanded">Buy Now</a>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="https://placehold.it/350x200">
-              <h5>Other Product <small>$22</small></h5>
-              <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
-              <a href="#" class="button hollow tiny expanded">Buy Now</a>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="https://placehold.it/350x200">
-              <h5>Other Product <small>$22</small></h5>
-              <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
-              <a href="#" class="button hollow tiny expanded">Buy Now</a>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="https://placehold.it/350x200">
-              <h5>Other Product <small>$22</small></h5>
-              <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
-              <a href="#" class="button hollow tiny expanded">Buy Now</a>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="https://placehold.it/350x200">
-              <h5>Other Product <small>$22</small></h5>
-              <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
-              <a href="#" class="button hollow tiny expanded">Buy Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row column">
-      <hr>
-      <ul class="menu">
-        <li>Yeti Store</li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li class="float-right">Copyright 2016</li>
+    <div class="holy-grail-left">
+      <h3>Nav</h3>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
       </ul>
     </div>
 
+    <div class="holy-grail-middle">
+      <h3>Content</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias mollitia debitis at atque temporibus ratione molestiae id eos, cupiditate numquam dolor vero totam, quisquam libero voluptas. Animi ipsa cumque, tempore.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias mollitia debitis at atque temporibus ratione molestiae id eos, cupiditate numquam dolor vero totam, quisquam libero voluptas. Animi ipsa cumque, tempore.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias mollitia debitis at atque temporibus ratione molestiae id eos, cupiditate numquam dolor vero totam, quisquam libero voluptas. Animi ipsa cumque, tempore.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias mollitia debitis at atque temporibus ratione molestiae id eos, cupiditate numquam dolor vero totam, quisquam libero voluptas. Animi ipsa cumque, tempore.</p>
+    </div>
 
-    <script src="assets/js/vendor.js"></script>
-    <script src="assets/js/foundation.js"></script>
-    <script src="assets/js/my-js.js"></script>
-  </body>
-  </html>
+    <!-- <div class="holy-grail-right">
+      <h3>Nav</h3>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+      </ul>
+    </div>-->
+
+    <div class="holy-grail-footer">
+      <h3>Footer</h3>
+    </div>
+
+  </div>
+
+  <script src="assets/js/vendor.js"></script>
+  <script src="assets/js/foundation.js"></script>
+  <script src="assets/js/my-js.js"></script>
+</body>
+</html>
