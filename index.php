@@ -13,66 +13,88 @@
 </head>
 <body>
 
-  <div class="holy-grail-grid">
-    <div class="holy-grail-header">
-      <nav class="top-bar topbar-responsive">
-        <div class="top-bar-title">
-          <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
-            <button class="menu-icon" type="button" data-toggle></button>
-          </span>
-          <a class="topbar-responsive-logo" href="#"><strong>Site Title</strong></a>
-        </div>
-        <div id="topbar-responsive" class="topbar-responsive-links">
-          <div class="top-bar-right">
-            <ul class="menu simple vertical medium-horizontal">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Works</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Contact</a></li>
-              <li>
-                <button type="button" class="button hollow topbar-responsive-button">Categories</button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-
+  <nav class="top-bar topbar-responsive">
+    <div class="top-bar-title">
+      <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle></button>
+      </span>
+      <a class="topbar-responsive-logo" href="#"><strong>Site Title</strong></a>
     </div>
-
-    <div class="holy-grail-left">
-      <h3>Nav</h3>
-      <ul>
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
-      </ul>
+    <div id="topbar-responsive" class="topbar-responsive-links">
+      <div class="top-bar-right">
+        <ul class="menu simple vertical medium-horizontal">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+          <li>
+            <button type="button" class="button hollow topbar-responsive-button">Categories</button>
+          </li>
+        </ul>
+      </div>
     </div>
-
-    <div class="holy-grail-middle">
-      <h3>Content</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias mollitia debitis at atque temporibus ratione molestiae id eos, cupiditate numquam dolor vero totam, quisquam libero voluptas. Animi ipsa cumque, tempore.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias mollitia debitis at atque temporibus ratione molestiae id eos, cupiditate numquam dolor vero totam, quisquam libero voluptas. Animi ipsa cumque, tempore.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias mollitia debitis at atque temporibus ratione molestiae id eos, cupiditate numquam dolor vero totam, quisquam libero voluptas. Animi ipsa cumque, tempore.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias mollitia debitis at atque temporibus ratione molestiae id eos, cupiditate numquam dolor vero totam, quisquam libero voluptas. Animi ipsa cumque, tempore.</p>
-    </div>
-
-    <!-- <div class="holy-grail-right">
-      <h3>Nav</h3>
-      <ul>
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
-      </ul>
-    </div>-->
-
-    <div class="holy-grail-footer">
-      <h3>Footer</h3>
-    </div>
-
-  </div>
+  </nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
   <script src="assets/js/vendor.js"></script>
   <script src="assets/js/foundation.js"></script>
